@@ -7,6 +7,6 @@ def try_exit(i=0):
     else:
         sys.exit(1)
 
-print 'I got in!!'
-try_exit(i=0)
+print 'This should fail!'
+try_exit(i=3)
 
