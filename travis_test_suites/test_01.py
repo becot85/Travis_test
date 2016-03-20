@@ -1,5 +1,1 @@
-<?python
-
 return False
-
-?>
