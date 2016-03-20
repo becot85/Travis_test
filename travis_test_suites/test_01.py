@@ -1,5 +1,6 @@
+import sys
 def try_exit(i=0):
     if i == 0:
-        exit 0
+        sys.exit(0)
     else:
-        exit 1
+        sys.exit(1)
