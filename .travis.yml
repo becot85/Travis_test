@@ -5,4 +5,4 @@ python:
 #script: python travis_test_suites/test_01.py
 script: python
 script: import travis_test_suites/test_01.py
-script: try_exit(0)
+script: try_exit(i=0)
